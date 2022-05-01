@@ -1,4 +1,5 @@
 #9's odd index is 4
+import time
 
 oddnumber = int(input("Enter odd number: "))
 print("Your odd number is: ")
@@ -8,14 +9,17 @@ oddindex = int(input("Enter odd index: "))
 print("Your odd index is: )")
 print(oddindex)
 
+print("All values assigned, starting triad calculation..")
+time.sleep(1)
+print("Assigning numbers..")
+time.sleep(1)
+print("Calculating second number...")
 SecondNumber = (oddnumber) * (oddindex) + (oddindex)
-print("Your second number is: ")
-print(SecondNumber)
-
+time.sleep(3)
+print("Caluclating third number...")
 ThirdNumber = (SecondNumber) + 1
-print("Your third number is: ")
-print(ThirdNumber)
-
+time.sleep(2)
+print("Triad calculated!")
 print("Your completed triad is: ")
 print(oddnumber)
 print(SecondNumber)
