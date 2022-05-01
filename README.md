@@ -3,7 +3,7 @@ This program will calculate a full pythagorean triad.
 To start, enter in an odd number.
 After that, find its odd index. A sample has been provided below:
 
-Odd Number,Odd Index
+Odd Number : Odd Index
 
 3,1
 
